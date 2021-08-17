@@ -18,6 +18,10 @@
       "required": false,
       "value": ""
     },
+    "BOT_USERNAME": {
+      "description": "your bot username",
+      "required": true 
+     },
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
       "required": true
