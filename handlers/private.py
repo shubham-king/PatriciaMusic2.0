@@ -27,7 +27,7 @@ async def start(_, message: Message):
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ 𝖆𝖉𝖉 𝖙𝖔 𝖌𝖗𝖔𝖚𝖕 ➕", url="https://t.me/MusicOn_robot?startgroup=true"
+                        "➕ 𝖆𝖉𝖉 𝖙𝖔 𝖌𝖗𝖔𝖚𝖕 ➕", url="https://t.me/SankiMusic_Robot?startgroup=true"
                     )]
             ]
         ),
