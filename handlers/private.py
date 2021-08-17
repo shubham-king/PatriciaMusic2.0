@@ -7,27 +7,27 @@ from helpers.filters import other_filters2
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
-    await message.reply_photo("https://telegra.ph/file/638627c193ab240adb930.jpg")
+    await message.reply_photo("https://telegra.ph/file/220461530b9b4cc13a7ab.jpg")
     await message.reply_text(
-        f"""**Hey, I'm {bn} 🎀
-I Cᴀɴ Pʟᴀʏ Mᴜsɪᴄ Iɴ Yᴏᴜʀ Sᴇxʏ Gʀᴏᴜᴩ Vᴏɪᴄᴇ Cʜᴀᴛ. Dᴇᴠᴇʟᴏᴩᴇᴅ Bʏ [ShubhamMusics](https://t.me/ShubhamMusics).
-Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Aɴᴅ Pʟᴀʏ Mᴜsɪᴄ Fʀᴇᴇʟʏ!**
+        f"""**ʜᴇʏ, ɪ 'ᴍ {bn} 🎀
+ι αм α ρяσנє¢т σf ѕнυвнαм мυѕι¢  тσ ρℓαу ѕσиg ιи тєℓєgяαм gяσυρ/¢нαииєℓ νσι¢є ¢нαт Dᴇᴠᴇʟᴏᴩᴇᴅ Bʏ [ShubhamMusics](https://t.me/ShubhamMusics).
+α∂∂ тσ уσυя gяσυρ αи∂ ρℓαу fяєєℓу!**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "MUSIC GROU ", url="https://t.me/Music_Enviroment")
+                        "𝖒𝖚𝖘𝖎𝖈 𝖌𝖗𝖔𝖚𝖕 ", url="https://t.me/Music_Enviroment")
                   ],[
                     InlineKeyboardButton(
-                        "Sᴜᴩᴩᴏʀᴛ👿", url="https://t.me/Robottech_chat"
+                        "𝖘𝖚𝖕𝖕𝖔𝖗𝖙", url="https://t.me/Robottech_chat"
                     ),
                     InlineKeyboardButton(
-                        "Cʜᴀɴɴᴇʟ", url="https://t.me/ShubhamMusics"
+                        "𝖈𝖍𝖆𝖓𝖓𝖊𝖑", url="https://t.me/ShubhamMusics"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ Add to Group➕", url="https://t.me/{bu}?startgroup=true"
+                        "➕ 𝖆𝖉𝖉 𝖙𝖔 𝖌𝖗𝖔𝖚𝖕 ➕", url="https://t.me/MusicOn_robot?startgroup=true"
                     )]
             ]
         ),
