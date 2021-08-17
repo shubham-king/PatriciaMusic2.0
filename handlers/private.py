@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
-from config import BOT_NAME as bn
+from config import BOT_NAME as bn, BOT_USERNAME as bu 
 from helpers.filters import other_filters2
 
 
@@ -17,17 +17,17 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Aɴᴅ Pʟᴀʏ Mᴜsɪᴄ Fʀᴇᴇʟ�
             [
                 [
                     InlineKeyboardButton(
-                        "Oᴡɴᴇʀ😘", url="t.me/piroXpower")
+                        "MUSIC GROU ", url="https://t.me/Music_Enviroment")
                   ],[
                     InlineKeyboardButton(
-                        "Sᴜᴩᴩᴏʀᴛ👿", url="https://t.me/patricia_Support"
+                        "Sᴜᴩᴩᴏʀᴛ👿", url="https://t.me/Robottech_chat"
                     ),
                     InlineKeyboardButton(
-                        "Cʜᴀɴɴᴇʟ", url="https://t.me/patricia_updates"
+                        "Cʜᴀɴɴᴇʟ", url="https://t.me/ShubhamMusics"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ Add to Group➕", url="https://t.me/BITTU_MUSICBOT?startgroup=true"
+                        "➕ Add to Group➕", url="https://t.me/{bu}?startgroup=true"
                     )]
             ]
         ),
@@ -41,7 +41,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊Uᴩᴅᴀᴛᴇs", url="https://t.me/patricia_updates")
+                        "🔊Uᴩᴅᴀᴛᴇs", url="https://t.me/ShubhamMusics")
                 ]
             ]
         )
