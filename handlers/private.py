@@ -27,7 +27,7 @@ async def start(_, message: Message):
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ 𝖆𝖉𝖉 𝖙𝖔 𝖌𝖗𝖔𝖚𝖕 ➕", url="https://t.me/IntelCore_bot?startgroup=true"
+                        "➕ 𝖆𝖉𝖉 𝖙𝖔 𝖌𝖗𝖔𝖚𝖕 ➕", url="https://t.me/IntelMusic_Gobot?startgroup=true"
                     )]
             ]
         ),
